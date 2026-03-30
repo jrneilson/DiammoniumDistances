@@ -16,7 +16,7 @@ Processes a set of CIF crystal structures to extract the end-to-end nitrogen–n
 
 Calculations are parallelized across all available CPU cores using `joblib`. The notebook expects CIF files to be organized in folders named `c4_structures/` through `c12_structures/`, where the folder name indicates the number of methylene carbons in the cation chain (*C*n = 4–12).
 
-### `analyzed_NN_exploded.csv`
+### `NNdistances.csv`
 
 Results table with one row per unique N–N distance measurement (731 rows/molecules). Columns:
 
